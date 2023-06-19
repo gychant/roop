@@ -278,3 +278,9 @@ def run():
     )
 
     window.mainloop()
+
+
+if __name__ == "__main__":
+    if args.source_img:
+        args.cli_mode = True
+    start()
